@@ -1,9 +1,9 @@
 function printFactorial(){
 
-    var factorial=1;
+    var product=1;
     for(var i=1; i<=12; i++){
-        factorial = factorial*i;
+        product = product*i;
     }
-    console.log(factorial);
+    console.log(product);
 }
 printFactorial();
